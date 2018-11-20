@@ -1,3 +1,4 @@
+import pytest
 from Calculator import Calculator
 
 calculator = Calculator()
