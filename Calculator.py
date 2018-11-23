@@ -13,8 +13,8 @@ class Calculator:
         return x * y
 
     def devide(self, x, y):
-#         if y == 0:
-#             return False
-#         else:
-#             return x / y
-        return x / y
+        if y == 0:
+            return False
+        else:
+            return x / y
+
